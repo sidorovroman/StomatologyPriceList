@@ -19,11 +19,15 @@
     </div>
     <div class="form-group">
         <label class="control-label" for="doctor_fio">Ф.И.О. врача</label>
-        <input class="form-control" id="doctor_fio" type="text" placeholder="Введите Ф.И.О. врача">
+        <input type="text" class="form-control" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
+        <datalist id="doctors">
+            <option>Сидоров Петр Николаевич</option>
+            <option>Сидорова Ирина Альбертовна</option>
+        </datalist>
     </div>
     <div class="form-group">
         <label class="control-label" for="diagnosis">Диагноз</label>
-        <textarea class="form-control" id="diagnosis" type="text" placeholder="Введите диагноз"></textarea>
+        <textarea class="form-control textarea-animated" id="diagnosis" type="text" placeholder="Введите диагноз"></textarea>
     </div>
     <div class="form-group">
         <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме на</label>
@@ -46,7 +50,7 @@
         </th>
         <th valign="middle">
             <p align="center">
-                <strong>кол-во</strong>
+                <strong>Кол-во</strong>
             </p>
         </th>
         <th valign="middle">
@@ -1688,13 +1692,15 @@
     </tr>
     </tbody>
 </table>
-<div class="form-group">
-    <label class="control-label" for="result">Итого:</label>
+<div class="form-group form-result">
+    <span class="result-label" for="result">Итого:</span>
     <input class="form-control" id="result" type="text"/>
+    <span>руб</span>
 </div>
 </div>
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.autosize.min.js"></script>
 <script src="js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-datepicker.ru.js" charset="UTF-8"></script>
 <script src="js/main.js"></script>

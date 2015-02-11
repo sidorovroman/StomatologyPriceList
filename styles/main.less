@@ -13,11 +13,26 @@
 #content{
   height: 100%;
 }
+.service-count{
+  width: 1.2cm;
+  text-align: center;
+}
+.form-result {
+  float: right;
+  #result {
+    width: 4cm;
+    display: inline;
+  }
+}
 .box{
   width: 16cm;
   margin: 1cm auto;
 }
-.title{}
+.textarea-animated{
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
 .print-btn{
   position: fixed;
   background: #f9f9f9 url('../img/print.svg') no-repeat center;
@@ -29,8 +44,9 @@
   &:hover{
     background-color: #DFF0D8;
   }
-
 }
+
+
 #datepicker{
   width: 100px;
 }
