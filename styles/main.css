@@ -1,0 +1,32 @@
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+.title-company {
+  padding: 1cm 0;
+  text-align: center;
+}
+#content {
+  height: 100%;
+}
+.box {
+  width: 16cm;
+  margin: 1cm auto;
+}
+.print-btn {
+  position: fixed;
+  background: #f9f9f9 url('../img/print.svg') no-repeat center;
+  background-size: 70px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+}
+.print-btn:hover {
+  background-color: #DFF0D8;
+}
+#datepicker {
+  width: 100px;
+}
