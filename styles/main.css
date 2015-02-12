@@ -3,10 +3,18 @@
   .no-print * {
     display: none !important;
   }
+  @page {
+    size: auto;
+    margin: 0mm;
+    
+    /* auto is the initial value */
+    /* this affects the margin in the printer settings */
+  }
 }
 .title-company {
-  padding: 1cm 0;
+  padding: 1cm 0 0 0;
   text-align: center;
+  font-size: 21px;
 }
 #content {
   height: 100%;
@@ -42,6 +50,12 @@
 }
 .print-btn:hover {
   background-color: #DFF0D8;
+}
+.no-service {
+  background-color: #d9edf7 !important;
+}
+.no-service:hover {
+  background-color: #d9edf7 !important;
 }
 #datepicker {
   width: 100px;

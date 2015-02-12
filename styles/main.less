@@ -4,11 +4,17 @@
   {
     display: none !important;
   }
+  @page
+  {
+    size: auto;   /* auto is the initial value */
+    margin: 0mm;  /* this affects the margin in the printer settings */
+  }
 }
 
 .title-company{
-  padding: 1cm 0;
+  padding: 1cm 0 0 0;
   text-align: center;
+  font-size: 21px;
 }
 #content{
   height: 100%;
@@ -45,8 +51,13 @@
     background-color: #DFF0D8;
   }
 }
-
-
-#datepicker{
-  width: 100px;
+.no-service {
+  background-color: rgb(217, 237, 247) !important;
+  &:hover {
+    background-color: rgb(217, 237, 247) !important;
+  }
+}
+  #datepicker{
+    width: 100px;
+  }
 }
