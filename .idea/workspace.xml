@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a948c89-f04e-4392-bb6a-5a2168873712" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.less" afterPath="$PROJECT_DIR$/styles/main.less" />
     </list>
     <ignored path="StomatologyPriceList.iws" />
@@ -30,28 +29,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.38" vertical-offset="10416" max-vertical-offset="25710">
+            <state vertical-scroll-proportion="-121.68" vertical-offset="4551" max-vertical-offset="25710">
               <caret line="709" column="26" selection-start-line="709" selection-start-column="16" selection-end-line="709" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83226836" vertical-offset="289" max-vertical-offset="1020">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.12" vertical-offset="379" max-vertical-offset="1005">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.769231" vertical-offset="490" max-vertical-offset="1140">
-              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.63076925" vertical-offset="475" max-vertical-offset="1170">
+              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -99,9 +98,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/main.less" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -430,12 +429,12 @@
       <changelist id="8a948c89-f04e-4392-bb6a-5a2168873712" name="Default" comment="" />
       <created>1423672538257</created>
       <updated>1423672538257</updated>
-      <workItem from="1423672538744" duration="9527000" />
+      <workItem from="1423672538744" duration="9682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9527000" />
+    <option name="totallyTimeSpent" value="9682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -504,26 +503,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/styles/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.769231" vertical-offset="490" max-vertical-offset="1140">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        <state vertical-scroll-proportion="-10.12" vertical-offset="379" max-vertical-offset="1005">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.38" vertical-offset="10416" max-vertical-offset="25710">
+        <state vertical-scroll-proportion="-121.68" vertical-offset="4551" max-vertical-offset="25710">
           <caret line="709" column="26" selection-start-line="709" selection-start-column="16" selection-end-line="709" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.less">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83226836" vertical-offset="289" max-vertical-offset="1020">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.63076925" vertical-offset="475" max-vertical-offset="1170">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
           <folding />
         </state>
       </provider>

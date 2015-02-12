@@ -56,10 +56,12 @@ function getResult() {
     var selectedRows = $('.table tbody tr.success');
     var values = [];
     for (var i = 0; i < selectedRows.length; i++){
-        var cost = +($(selectedRows[i]).children().last().children().text());
         var count = $(selectedRows[i]).children().eq(-2).find('input').val();
-        var serviceResult = cost*count;
-        values.push(serviceResult);
+        if(count>0){
+            var cost = +($(selectedRows[i]).children().last().children().text());
+            var serviceResult = cost*count;
+            values.push(serviceResult);
+        }
     }
     var total = 0;
     for (var j = 0; j < values.length; j++) {
