@@ -13,13 +13,13 @@
 <p class="title-company"><strong>ООО &laquo;Стоматология С&raquo;</strong></p>
 <a class = "print-btn" href="javascript:window.print()"></a>
 <div  class="box">
-    <div class="form-group">
-        <label class="control-label" for="client_fio">Ф.И.О. пациента</label>
-        <input class="form-control" id="client_fio" type="text" placeholder="Введите Ф.И.О. пациента">
+    <div class="form-group print-group">
+        <label class="control-label print-title" for="client_fio">Ф.И.О. пациента</label>
+        <input class="form-control print-inline-input" id="client_fio" type="text" placeholder="Введите Ф.И.О. пациента">
     </div>
-    <div class="form-group">
-        <label class="control-label" for="doctor_fio">Ф.И.О. врача</label>
-        <input type="text" class="form-control" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
+    <div class="form-group print-group">
+        <label class="control-label print-title" for="doctor_fio">Ф.И.О. врача</label>
+        <input type="text" class="form-control print-inline-input" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
         <datalist id="doctors">
             <option>Сидоров Петр Николаевич</option>
             <option>Сидорова Ирина Альбертовна</option>
@@ -31,7 +31,7 @@
     </div>
     <div class="form-group">
         <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме на</label>
-        <input class="form-control" id="datepicker" type="text"/>
+        <input class="form-control print-inline-input" id="datepicker" type="text"/>
     </div>
 </div>
 <div id="content" class="box">
@@ -1695,7 +1695,7 @@
 </table>
 <div class="form-group form-result">
     <span class="result-label" for="result">Итого:</span>
-    <input class="form-control" id="result" type="text"/>
+    <input class="form-control print-inline-input" id="result" type="text"/>
     <span>руб</span>
 </div>
 </div>

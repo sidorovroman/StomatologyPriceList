@@ -11,6 +11,19 @@
     /* this affects the margin in the printer settings */
   }
 }
+.print-group {
+  position: relative;
+  padding-left: 150px;
+}
+.print-title {
+  padding: 8px 0;
+  position: absolute;
+  left: 0;
+}
+.print-inline-input {
+  border: none !important;
+  box-shadow: none !important;
+}
 .title-company {
   padding: 1cm 0 0 0;
   text-align: center;
@@ -59,4 +72,7 @@
 }
 #datepicker {
   width: 100px;
+}
+tr {
+  cursor: pointer;
 }
