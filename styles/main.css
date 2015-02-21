@@ -88,6 +88,9 @@
   }
 }
 /* End Of Print Style */
+input[type="number"] {
+  float: right;
+}
 .separator {
   visibility: hidden;
 }
