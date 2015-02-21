@@ -49,6 +49,17 @@ $(function() {
         }
         getResult();
     });
+    //убираем скроллируемость колва услуг при наведении на input
+    // disable mousewheel on a input number field when in focus
+// (to prevent Cromium browsers change the value when scrolling)
+    $('td').on('focus', 'input[type=number]', function (e) {
+        $(this).on('mousewheel.disableScroll', function (e) {
+            e.preventDefault()
+        })
+    })
+    $('td').on('blur', 'input[type=number]', function (e) {
+        $(this).off('mousewheel.disableScroll')
+    })
 });
 
 // метод для подсчета итога

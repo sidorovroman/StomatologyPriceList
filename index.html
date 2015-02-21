@@ -10,26 +10,29 @@
 
 </head>
 <body>
-<p class="title-company"><strong>ООО &laquo;Стоматология С&raquo;</strong></p>
+<img class="logo-print" src = "img/logo.png" alt="Стоматология С"/>
+<p class="title-company"><strong><img class="logo" src = "img/logo-green.png" alt="Стоматология С"/></strong></p>
 <a class = "print-btn" href="javascript:window.print()"></a>
 <div  class="box">
     <div class="form-group print-group">
-        <label class="control-label print-title" for="client_fio">Ф.И.О. пациента</label>
+        <label class="control-label print-title" for="client_fio">Ф.И.О. пациента:</label>
         <input class="form-control print-inline-input" id="client_fio" type="text" placeholder="Введите Ф.И.О. пациента">
     </div>
     <div class="form-group print-group">
-        <label class="control-label print-title" for="doctor_fio">Ф.И.О. врача</label>
+        <label class="control-label print-title" for="doctor_fio">Ф.И.О. врача:</label>
         <input type="text" class="form-control print-inline-input" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
         <datalist id="doctors">
-            <option>Сидоров Петр Николаевич</option>
-            <option>Сидорова Ирина Альбертовна</option>
+            <option>Галимзянова Маргарита Петровна</option>
+            <option>Никифорова Наталья Димитриевна</option>
+            <option>Абзалова София Львовна</option>
         </datalist>
     </div>
-    <div class="form-group">
-        <label class="control-label" for="diagnosis">Диагноз</label>
+    <div class="separator"></div>
+    <div class="form-group  print-group">
+        <label class="control-label  print-title" for="diagnosis">Диагноз:</label>
         <textarea class="form-control textarea-animated" id="diagnosis" type="text" placeholder="Введите диагноз"></textarea>
     </div>
-    <div class="form-group">
+    <div class="form-group protocol-title">
         <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме на</label>
         <input class="form-control print-inline-input" id="datepicker" type="text"/>
     </div>
