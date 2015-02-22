@@ -7,6 +7,9 @@
   .logo-print{
     visibility: visible !important;
   }
+  .info-print{
+    visibility: visible !important;
+  }
   #datepicker{
     font-weight: bold !important;
   }
@@ -55,11 +58,16 @@
     visibility: hidden !important;
     margin-bottom: 2cm !important;
   }
+  table{
+    border: 1px solid #dddddd !important;
+  }
   th{
     font-size: 12px !important;
+    border: 1px solid #dddddd !important;
   }
   td{
     padding: 2px 8px !important;
+    border: 1px solid #dddddd !important;
     font-size: 10px !important;
   }
   p{
@@ -76,7 +84,10 @@
   .form-group {
     margin-bottom: 0px !important;
   }
-}
+  .form-signature{
+    visibility: visible !important;
+  }
+  }
  /* End Of Print Style */
 
 input[type="number"]{
@@ -85,6 +96,18 @@ input[type="number"]{
 .separator{
   visibility: hidden;
 }
+.form-signature{
+  visibility: hidden;
+
+  width: 8cm;
+
+    .line{
+      width: 4cm;
+      border-bottom: 1px solid;
+      margin-left: 2cm;
+      margin-bottom: 0.7cm;
+    }
+}
 .logo-print{
   visibility: hidden;
 
@@ -92,6 +115,18 @@ input[type="number"]{
   top: 1cm;
   right: 1cm;
   width: 5cm;
+}
+.info-print{
+  visibility: hidden;
+  color: #000;
+  position: absolute;
+  top: 1cm;
+  left: 1cm;
+  font-size: 10px;
+  p{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 }
 .form-control {
   box-shadow: none !important;

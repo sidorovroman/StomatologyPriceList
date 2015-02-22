@@ -11,6 +11,14 @@
 </head>
 <body>
 <img class="logo-print" src = "img/logo.png" alt="Стоматология С"/>
+<div class="info-print">
+    <p>422544, РФ, Республика Татарстан,</p>
+    <p>г.Зеленодольск, ул.Рогачева, д.5</p>
+    <p>ИНН/КПП 1648032396/164801001</p>
+    <p>ОГРН 1111673003243</p>
+    <p>тел.: (84371)5-01-71</p>
+</div>
+
 <p class="title-company"><strong><img class="logo" src = "img/logo-green.png" alt="Стоматология С"/></strong></p>
 <a class = "print-btn" href="javascript:window.print()"></a>
 <div  class="box">
@@ -22,6 +30,7 @@
         <label class="control-label print-title" for="doctor_fio">Ф.И.О. врача:</label>
         <input type="text" class="form-control print-inline-input" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
         <datalist id="doctors">
+            <option>Сидорова Ирина Альбертовна</option>
             <option>Галимзянова Маргарита Петровна</option>
             <option>Никифорова Наталья Димитриевна</option>
             <option>Абзалова София Львовна</option>
@@ -33,7 +42,7 @@
         <textarea class="form-control textarea-animated" id="diagnosis" type="text" placeholder="Введите диагноз"></textarea>
     </div>
     <div class="form-group protocol-title">
-        <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме на</label>
+        <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме</label>
         <input class="form-control print-inline-input" id="datepicker" type="text"/>
     </div>
 </div>
@@ -1697,9 +1706,13 @@
     </tbody>
 </table>
 <div class="form-group form-result">
-    <span class="result-label" for="result">Итого:</span>
+    <span class="result-label" for="result">ИТОГО:</span>
     <input class="form-control print-inline-input" id="result" type="text"/>
     <span>руб</span>
+</div>
+<div class="form-signature">
+    <span>Кассир:</span><div class="line"></div>
+    <span  class="clear">Получено:</span><div class="line"></div>
 </div>
 </div>
 <script src="js/jquery-2.1.3.min.js"></script>
