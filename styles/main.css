@@ -1,4 +1,7 @@
 @media print {
+  body {
+    zoom: 75%;
+  }
   .no-print,
   .no-print * {
     display: none !important;
