@@ -25,7 +25,7 @@ $(function() {
     }).datepicker("setDate", new Date());
 
     // textarea autosize
-    $("#diagnosis").autosize();
+    //$("#diagnosis").autosize();
 
     // .no-print - по умолчанию не печатаем строки таблицы
     $('.table tbody tr').addClass("no-print");
