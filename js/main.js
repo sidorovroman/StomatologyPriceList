@@ -1,4 +1,7 @@
 $(function() {
+
+    //грязно очищаем все input, при обновлении mozilla кэширует поля
+    $('input').val('');
     // задаем ширину ячеки с кол-вом оказываемой услуги
     $('.table thead tr').children().eq(-2).width(70);
 
@@ -25,7 +28,7 @@ $(function() {
     }).datepicker("setDate", new Date());
 
     // textarea autosize
-    $("#diagnosis").autosize();
+    //$("#diagnosis").autosize();
 
     // .no-print - по умолчанию не печатаем строки таблицы
     $('.table tbody tr').addClass("no-print");

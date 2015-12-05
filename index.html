@@ -1,7 +1,8 @@
-<!DOCTYPE HTML>
-<html>
+﻿<!DOCTYPE HTML>
+<html moznomarginboxes mozdisallowselectionprint>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" http-equiv="cache-control" content="no-cache"> 
+ 
     <title class="no-print">Прайс-лист ООО &laquo;Стоматология С&raquo;</title>
 
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
@@ -24,11 +25,11 @@
 <div  class="box">
     <div class="form-group print-group">
         <label class="control-label print-title" for="client_fio">Ф.И.О. пациента:</label>
-        <input class="form-control print-inline-input" id="client_fio" type="text" placeholder="Введите Ф.И.О. пациента">
+        <input class="form-control print-inline-input" id="client_fio" type="text" placeholder="Введите Ф.И.О. пациента" autocomlete="off">
     </div>
     <div class="form-group print-group">
         <label class="control-label print-title" for="doctor_fio">Ф.И.О. врача:</label>
-        <input type="text" class="form-control print-inline-input" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors">
+        <input type="text" class="form-control print-inline-input" id="doctor_fio" placeholder="Введите Ф.И.О. врача" list="doctors" autocomlete="off">
         <datalist id="doctors">
             <option>Сидорова Ирина Альбертовна</option>
             <option>Галимзянова Маргарита Петровна</option>
@@ -39,11 +40,24 @@
     <div class="separator"></div>
     <div class="form-group  print-group">
         <label class="control-label  print-title" for="diagnosis">Диагноз:</label>
-        <textarea class="form-control textarea-animated" id="diagnosis" type="text" placeholder="Введите диагноз"></textarea>
+        <input class="form-control print-inline-input" id="diagnosis" type="text" placeholder="Введите диагноз" list="diagnosis-list" autocomlete="off">
+        <datalist id="diagnosis-list">
+            <option>К02.0 - начальный кариес</option>
+            <option>К02.1 - острый средний кариес</option>
+            <option>К02.1 - хронический средний кариес</option>
+            <option>К02.1 - острый глубокий кариес</option>
+            <option>К02.1 - хронический глубокий кариес</option>
+            <option>К028 - кариес депульпированного зуба</option>
+            <option>К04.01 - острый пульпит</option>
+            <option>К04.03 - хронический пульпит</option>
+            <option>К04.4 - острый апикальный периодонтит</option>
+            <option>К04.4 - обострение хронического апикального периодонтита</option>
+            <option>К04.5 - хронический периодонтит</option>
+        </datalist>
     </div>
     <div class="form-group protocol-title">
         <label class="control-label" for="datepicker">Протокол на исполненные работы на терапевтическом приеме</label>
-        <input class="form-control print-inline-input" id="datepicker" type="text"/>
+        <input class="form-control print-inline-input" id="datepicker" type="text" autocomlete="off"/>
     </div>
 </div>
 <div id="content" class="box">
@@ -371,7 +385,7 @@
         </td>
         <td valign="middle">
             <p align="center">
-                150
+                350
             </p>
         </td>
     </tr>
@@ -1707,7 +1721,7 @@
 </table>
 <div class="form-group form-result">
     <span class="result-label" for="result">ИТОГО:</span>
-    <input class="form-control print-inline-input" id="result" type="text"/>
+    <input class="form-control print-inline-input" id="result" type="text" autocomlete="off"/>
     <span>руб</span>
 </div>
 <div class="form-signature">

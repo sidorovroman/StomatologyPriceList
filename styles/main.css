@@ -1,4 +1,7 @@
 @media print {
+  body {
+    zoom: 75%;
+  }
   .no-print,
   .no-print * {
     display: none !important;
@@ -97,6 +100,9 @@
   .form-signature {
     visibility: visible !important;
   }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
 }
 /* End Of Print Style */
 input[type="number"] {
@@ -154,7 +160,7 @@ input[type="number"] {
 }
 .service-count {
   width: 1.2cm;
-  text-align: center;
+  text-align: left;
 }
 .form-result {
   float: right;
