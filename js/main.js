@@ -1,5 +1,11 @@
 $(function() {
 
+    $.getScript("a.js", function(){
+
+       alert("Script loaded but not necessarily executed.");
+
+    });
+
     //грязно очищаем все input, при обновлении mozilla кэширует поля
     $('input').val('');
     // задаем ширину ячеки с кол-вом оказываемой услуги
