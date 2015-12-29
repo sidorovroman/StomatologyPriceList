@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a948c89-f04e-4392-bb6a-5a2168873712" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/slomatolog.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/stomatolog.js" afterPath="$PROJECT_DIR$/js/stomatolog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros.cfg" afterPath="$PROJECT_DIR$/prepros.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.less" afterPath="$PROJECT_DIR$/styles/main.less" />
     </list>
@@ -70,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.45933">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state vertical-scroll-proportion="-1.2179487">
+              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.6470585">
-              <caret line="208" column="14" selection-start-line="208" selection-start-column="14" selection-end-line="208" selection-end-column="14" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -93,22 +93,22 @@
       <file leaf-file-name="stomatolog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/stomatolog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0">
-              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
               <folding>
-                <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-                <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-                <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+                <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+                <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+                <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -513,12 +513,12 @@
       <workItem from="1423672538744" duration="9682000" />
       <workItem from="1449340983464" duration="63000" />
       <workItem from="1449374968036" duration="868000" />
-      <workItem from="1451327971014" duration="3103000" />
+      <workItem from="1451327971014" duration="6265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13716000" />
+    <option name="totallyTimeSpent" value="16878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -603,9 +603,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -647,9 +647,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -691,9 +691,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -711,9 +711,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -747,9 +747,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -783,9 +783,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -821,39 +821,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.less">
+    <entry file="file://$PROJECT_DIR$/js/stomatolog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.6470585">
-          <caret line="208" column="14" selection-start-line="208" selection-start-column="14" selection-end-line="208" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stomatolog.js">
+    <entry file="file://$PROJECT_DIR$/styles/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2179487">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
           <folding>
-            <marker date="1451366063000" expanded="true" signature="2596:2600" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="2596:2842" placeholder="..." />
-            <marker date="1451366063000" expanded="true" signature="3022:3341" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2605" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2601:2787" placeholder="..." />
+            <marker date="1451414594000" expanded="true" signature="2989:3290" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.45933">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
