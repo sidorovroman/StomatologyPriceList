@@ -1,13 +1,10 @@
 $(function() {
 
-    $.getScript("a.js", function(){
-
-       alert("Script loaded but not necessarily executed.");
-
-    });
+    fillTable();
 
     //грязно очищаем все input, при обновлении mozilla кэширует поля
     $('input').val('');
+
     // задаем ширину ячеки с кол-вом оказываемой услуги
     $('.table thead tr').children().eq(-2).width(70);
 
@@ -71,6 +68,40 @@ $(function() {
     })
 });
 
+/**
+ * метод для заполнения таблицы
+ * пока что данные хранятся в переменной
+ */
+
+function fillTable() {
+    var $mainTableBody = $("#main tbody");
+
+    for(var i =0;i<globalJSON.length;i++ ) {
+        var type = globalJSON[i];
+
+        console.log(type.name);
+        $mainTableBody.append("<tr class='no-service'>" +
+            "<td valign='middle'></td>" +
+            "<td valign='middle'><p align='center'><strong>" + type.name + "</strong></p></td>" +
+            "<td valign='middle'></td>" +
+            "<td valign='middle'></td>" +
+            "</tr>");
+
+        for (var j =0;j<type.services.length;j++) {
+            var service = type.services[j];
+            console.log(service.type);
+
+            $mainTableBody.append("<tr>" +
+                "<td valign='middle'><p align='center'>"+service.code +"</p></td>" +
+                "<td valign='middle'><p>" + service.type + "</p></td>" +
+                "<td valign='middle'></td>" +
+                "<td valign='middle'><p align='center'>" + service.price + "</p></td>" +
+                "</tr>");
+        }
+    }
+}
+
+
 // метод для подсчета итога
 function getResult() {
     var selectedRows = $('.table tbody tr.success');
@@ -90,4 +121,4 @@ function getResult() {
 
     this._result = $('#result');
     this._result.val(total);
-}
+};

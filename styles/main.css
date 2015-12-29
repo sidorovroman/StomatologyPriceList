@@ -203,3 +203,10 @@ input[type="number"] {
 tr {
   cursor: pointer;
 }
+#test-block table {
+  width: 50%;
+  float: left;
+}
+.box {
+  width: 100%;
+}
