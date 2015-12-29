@@ -82,7 +82,7 @@ function fillTable() {
         console.log(type.name);
         $mainTableBody.append("<tr class='no-service no-print'>" +
             "<td></td>" +
-            "<td><strong>" + type.name + "</strong></td>" +
+            "<td class='td-title-name'><strong>" + type.name + "</strong></td>" +
             "<td></td>" +
             "<td></td>" +
             "<td></td>" +

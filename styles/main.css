@@ -209,6 +209,9 @@ tr {
   padding-top: 13px !important;
   padding-bottom: 13px !important;
 }
+#main-table .td-title-name {
+  text-align: left;
+}
 #main-table .td-name {
   text-align: left;
 }
