@@ -173,7 +173,7 @@ input[type="number"] {
   display: inline;
 }
 .box {
-  width: 16cm;
+  width: 18cm;
   margin: 1cm auto;
 }
 .textarea-animated {
@@ -205,6 +205,46 @@ input[type="number"] {
 }
 tr {
   cursor: pointer;
+}
+#main-table th {
+  text-align: center;
+}
+#main-table .th-count {
+  min-width: 70px;
+}
+#main-table .th-price {
+  min-width: 90px;
+}
+#main-table .tr-title td:first-child {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  background-image: url('../img/arrow.png');
+  -moz-transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+}
+#main-table .tr-title.expanded td:first-child {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+#main-table .tr-title.collapsed td:first-child {
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+#main-table .tr-result {
+  background-color: #fff !important;
+  cursor: default;
+  border-style: double;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+}
+#main-table .tr-result td.title {
+  text-align: left;
+  font-weight: bold;
+}
+#main-table .tr-result:hover {
+  background-color: #fff !important;
 }
 #main-table td {
   vertical-align: middle;

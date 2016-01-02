@@ -70,6 +70,7 @@ $(function () {
     })
 });
 
+
 /**
  * метод для заполнения таблицы
  * пока что данные хранятся в переменной
@@ -84,7 +85,7 @@ function fillTable() {
         var parentNodeId = ++nodeId;
 
         console.log(type.name);
-        $mainTableBody.append("<tr class='no-service no-print tr-title' data-node='" + parentNodeId + "'>" +
+        $mainTableBody.append("<tr class='no-service no-print tr-title collapsed' data-node='" + parentNodeId + "'>" +
             "<td></td>" +
             "<td class='td-title-name'><strong>" + type.name + "</strong></td>" +
             "<td></td>" +
@@ -101,15 +102,27 @@ function fillTable() {
                 "<td class='td-name'>" + service.name + "</td>" +
                 "<td class='count'></td>" +
                 "<td class='price'>" + service.price + "</td>" +
-                "<td>" + service.unit + "</td>" +
+                "<td class='unit'>" + service.unit + "</td>" +
                 "</tr>");
         }
     }
+    addResultField();
 }
+var addResultField = function () {
+    var $mainTableBody = $("#main tbody");
+    $mainTableBody.append("<tr class='no-service tr-result'>" +
+            "<td></td>" +
+            "<td class='title'>ИТОГ:</td>" +
+            "<td></td>" +
+            "<td id='result'></td>" +
+            "<td id='unitCount'></td>" +
+        "</tr>");
+};
 function collapseTable() {
     var $mainTableBody = $("#main tbody");
     $mainTableBody.find("tr").not(".no-service").hide();
     $(".tr-title").click(function(){
+        $(this).toggleClass("collapsed expanded");
         var nodeId = $(this).data("node");
         var trChilds = $mainTableBody.find("[data-pnode='" + nodeId + "']");
         trChilds.toggle();
@@ -120,20 +133,31 @@ function collapseTable() {
 // метод для подсчета итога
 function getResult() {
     var selectedRows = $('.table tbody tr.success');
-    var values = [];
+    var priceResult = [];
+    var unitResult = [];
     for (var i = 0; i < selectedRows.length; i++) {
         var count = $(selectedRows[i]).find(".count").find('input').val();
         if (count > 0) {
             var cost = +($(selectedRows[i]).find('.price').text());
             var serviceResult = cost * count;
-            values.push(serviceResult);
+            priceResult.push(serviceResult);
         }
+        var unit = +($(selectedRows[i]).find('.unit').text());
+        unitResult.push(unit);
     }
-    var total = 0;
-    for (var j = 0; j < values.length; j++) {
-        total += values[j];
+    var totalPrice = 0;
+    for (var j = 0; j < priceResult.length; j++) {
+        totalPrice += priceResult[j];
     }
 
-    this._result = $('#result');
-    this._result.val(total);
+    this._resultPrice = $('#result');
+    this._resultPrice.html(totalPrice);
+
+    var totalUnit = 0;
+    for (var j = 0; j < unitResult.length; j++) {
+        totalUnit += unitResult[j];
+    }
+
+    this._resultUnit = $('#unitCount');
+    this._resultUnit.html(totalUnit);
 };

@@ -174,7 +174,7 @@ input[type="number"]{
   }
 }
 .box{
-  width: 16cm;
+  width: 18cm;
   margin: 1cm auto;
 }
 .textarea-animated{
@@ -209,6 +209,52 @@ tr{
 }
 
 #main-table{
+  th{
+    text-align: center;
+  }
+  .th-count{
+    min-width: 70px;
+  }
+  .th-price{
+    min-width: 90px;
+  }
+  .tr-title{
+    td:first-child{
+      background-repeat:no-repeat;
+      background-position:center;
+      background-size: 20px;
+      background-image:url('../img/arrow.png') ;
+      -moz-transition:0.2s all;
+      -webkit-transition:0.2s all;
+    }
+    &.expanded{
+      td:first-child{
+        -moz-transform:rotate(90deg);
+        -webkit-transform:rotate(90deg);
+      }
+    }
+    &.collapsed{
+      td:first-child{
+        -moz-transform:rotate(-90deg);
+        -webkit-transform:rotate(-90deg);
+      }
+    }
+  }
+  .tr-result{
+    background-color: #fff !important;
+    cursor: default;
+    border-style: double;
+    border-left: white;
+    border-right: white;
+    border-bottom: white;
+    td.title{
+      text-align: left;
+      font-weight: bold;
+    }
+    &:hover {
+      background-color: #fff !important;
+    }
+  }
   td{
     vertical-align: middle;
     text-align:center;
@@ -224,6 +270,5 @@ tr{
   .count{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
-
   }
 }
