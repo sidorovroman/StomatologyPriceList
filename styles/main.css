@@ -2,6 +2,9 @@
   body {
     zoom: 75%;
   }
+  #main-table tr {
+    display: table-row !important;
+  }
   .no-print,
   .no-print * {
     display: none !important;
