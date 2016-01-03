@@ -1,7 +1,5 @@
-@media print
-{
   body{
-    zoom:75%;
+    /*zoom:75%;*/
     margin: 25mm 25mm 25mm 25mm;
   }
   #main-table{
@@ -54,6 +52,9 @@
     }
 
   }
+  .header-title{
+    text-align: right;
+  }
   .print-title{
     padding: 0 !important;
     position: absolute !important;
@@ -80,7 +81,7 @@
   td{
     padding: 2px 8px !important;
     border: 1px solid #dddddd !important;
-    font-size: 10px !important;
+    font-size: 10px;
   }
   p{
     margin: 0 !important;
@@ -93,18 +94,22 @@
     box-shadow: none !important;
     outline: none !important;
   }
-  .form-group {
-    margin-bottom: 0px !important;
-  }
   .form-signature{
     visibility: visible !important;
   }
   input[type=number] {
     -moz-appearance:textfield;   
   }
-}
- /* End Of Print Style */
 
+
+
+
+
+
+
+
+
+/*some*/
 input[type="number"]{
   float: right;
 }
@@ -222,28 +227,6 @@ tr{
   .th-price{
     min-width: 90px;
   }
-  .tr-title{
-    td:first-child{
-      background-repeat:no-repeat;
-      background-position:center;
-      background-size: 20px;
-      background-image:url('../img/arrow.png') ;
-      -moz-transition:0.2s all;
-      -webkit-transition:0.2s all;
-    }
-    &.expanded{
-      td:first-child{
-        -moz-transform:rotate(90deg);
-        -webkit-transform:rotate(90deg);
-      }
-    }
-    &.collapsed{
-      td:first-child{
-        -moz-transform:rotate(-90deg);
-        -webkit-transform:rotate(-90deg);
-      }
-    }
-  }
   .tr-result{
     background-color: #fff !important;
     cursor: default;
@@ -267,6 +250,7 @@ tr{
   }
   .td-title-name{
     text-align: left;
+    font-size: 15px;
   }
   .td-name{
     text-align: left;

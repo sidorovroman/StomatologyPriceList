@@ -1,6 +1,10 @@
 @media print {
   body {
     zoom: 75%;
+    margin: 25mm 25mm 25mm 25mm;
+  }
+  #main-table thead {
+    display: table-header-group;
   }
   #main-table tr {
     display: table-row !important;
