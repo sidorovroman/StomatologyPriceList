@@ -112,7 +112,7 @@ var addResultField = function () {
     var $mainTableBody = $("#main tbody");
     $mainTableBody.append("<tr class='no-service tr-result'>" +
             "<td></td>" +
-            "<td class='title'>ИТОГ:</td>" +
+            "<td class='title'>ИТОГО:</td>" +
             "<td></td>" +
             "<td id='result'></td>" +
             "<td id='unitCount'></td>" +
