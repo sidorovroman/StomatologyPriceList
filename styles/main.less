@@ -1,8 +1,9 @@
 @media print
 {
   body{
+
     zoom:75%;
-    margin: 25mm 25mm 25mm 25mm;
+    margin: 25mm auto;
   }
   #main-table{
     thead {
@@ -10,8 +11,21 @@
     }
     tr{
       display:  table-row !important;
+      td{
+        padding: 2mm !important;
+    font-size: 100% !important;
+
+        /*font-size: 14px !important;*/
+        .service-count {
+            text-align: center;
+        }
+      }
     }
   }
+  #result{
+      font-weight: bold;
+  }
+
   .no-print, .no-print *
   {
     display: none !important;
@@ -113,15 +127,14 @@ input[type="number"]{
 }
 .form-signature{
   visibility: hidden;
-
-  width: 8cm;
-
-    .line{
-      width: 4cm;
-      border-bottom: 1px solid;
-      margin-left: 2cm;
-      margin-bottom: 0.7cm;
-    }
+  margin-top: 3cm;
+  width: 100%;
+  .line{
+    width: 4cm;
+    border-bottom: 1px solid;
+    margin: 0 5mm;
+    display: inline-block;
+  }
 }
 .logo-print{
   visibility: hidden;
@@ -162,6 +175,7 @@ input[type="number"]{
 }
 .protocol-title{
   text-align: center;
+      padding: 7mm 0 !important;
 }
 #content{
   height: 100%;
@@ -276,3 +290,6 @@ tr{
     padding-bottom: 0px !important;
   }
 }
+  .client{
+    margin-left: 4cm;
+  }
