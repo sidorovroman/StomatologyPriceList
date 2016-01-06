@@ -1,21 +1,29 @@
 @media print {
   body {
     zoom: 75%;
-    margin: 25mm auto;
+    margin: 0 auto;
+  }
+  .box {
+    width: 12cm !important;
   }
   #main-table thead {
     display: table-header-group;
   }
   #main-table tr {
     display: table-row !important;
+    border: 1px solid #dddddd !important;
+  }
+  #main-table tr th {
+    font-size: 12px !important;
+    border: 1px solid #dddddd !important;
   }
   #main-table tr td {
+    border: 1px solid #dddddd !important;
+    font-size: 10px !important;
     padding: 2mm !important;
-    font-size: 100% !important;
-    /*font-size: 14px !important;*/
   }
   #main-table tr td .service-count {
-    text-align: center;
+    text-align: center !important;
   }
   #result {
     font-weight: bold;
@@ -89,18 +97,6 @@
     visibility: hidden !important;
     margin-bottom: 2cm !important;
   }
-  table {
-    border: 1px solid #dddddd !important;
-  }
-  th {
-    font-size: 12px !important;
-    border: 1px solid #dddddd !important;
-  }
-  td {
-    padding: 2px 8px !important;
-    border: 1px solid #dddddd !important;
-    font-size: 10px !important;
-  }
   p {
     margin: 0 !important;
   }
@@ -121,21 +117,28 @@
   input[type=number] {
     -moz-appearance: textfield;
   }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]:hover,
+  input[type="number"]:focus {
+    -moz-appearance: number-input;
+  }
 }
 /* End Of Print Style */
-input[type="number"] {
+/*input[type="number"]{
   float: right;
-}
+}*/
 .separator {
   visibility: hidden;
 }
 .form-signature {
   visibility: hidden;
-  margin-top: 3cm;
+  margin-top: 2cm;
   width: 100%;
 }
 .form-signature .line {
-  width: 4cm;
+  width: 3cm;
   border-bottom: 1px solid;
   margin: 0 5mm;
   display: inline-block;
@@ -220,19 +223,29 @@ input[type="number"] {
   width: 100px;
   display: inline-block;
 }
-tr {
+#main-table tr {
   cursor: pointer;
 }
-#main-table th {
+#main-table tr th {
   text-align: center;
+  vertical-align: middle;
 }
-#main-table .th-count {
+#main-table tr th.th-count {
   min-width: 70px;
 }
-#main-table .th-price {
-  min-width: 90px;
+#main-table tr td {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
 }
-#main-table .tr-title td:first-child {
+#main-table tr td.td-title-name {
+  text-align: left;
+}
+#main-table tr td.td-name {
+  text-align: left;
+}
+#main-table tr.tr-title td:first-child {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
@@ -240,15 +253,15 @@ tr {
   -moz-transition: 0.2s all;
   -webkit-transition: 0.2s all;
 }
-#main-table .tr-title.expanded td:first-child {
+#main-table tr.tr-title.expanded td:first-child {
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
 }
-#main-table .tr-title.collapsed td:first-child {
+#main-table tr.tr-title.collapsed td:first-child {
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
-#main-table .tr-result {
+#main-table tr.tr-result {
   background-color: #fff !important;
   cursor: default;
   border-style: double;
@@ -256,29 +269,17 @@ tr {
   border-right: white;
   border-bottom: white;
 }
-#main-table .tr-result td.title {
+#main-table tr.tr-result td.title {
   text-align: left;
   font-weight: bold;
 }
-#main-table .tr-result:hover {
+#main-table tr.tr-result:hover {
   background-color: #fff !important;
-}
-#main-table td {
-  vertical-align: middle;
-  text-align: center;
-  padding-top: 13px !important;
-  padding-bottom: 13px !important;
-}
-#main-table .td-title-name {
-  text-align: left;
-}
-#main-table .td-name {
-  text-align: left;
 }
 #main-table .count {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 .client {
-  margin-left: 4cm;
+  margin-left: 5mm;
 }
