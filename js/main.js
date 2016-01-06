@@ -79,9 +79,9 @@ $(function () {
 
 
 function updateUnit ($tr) {
-    var selector = $tr.data('selector');
-    console.log("selector:" + selector);
-    if (selector) {
+    var unitNotProportionWithCount = $tr.data('unitNotProportionWithCount');
+    console.log("unitNotProportionWithCount:" + unitNotProportionWithCount);
+    if (unitNotProportionWithCount) {
         var $unitInput = $tr.find(".unit");
 
         var $countInput = $tr.find(".service-count");
@@ -115,8 +115,6 @@ function fillTable() {
     for (var i = 0; i < globalJSON.length; i++) {
         var type = globalJSON[i];
         var parentNodeId = ++nodeId;
-
-        console.log(type.name);
         $mainTableBody.append("<tr class='no-service no-print tr-title collapsed' data-node='" + parentNodeId + "'>" +
             "<td></td>" +
             "<td class='td-title-name'><strong>" + type.name + "</strong></td>" +
@@ -127,10 +125,9 @@ function fillTable() {
 
         for (var j = 0; j < type.services.length; j++) {
             var service = type.services[j];
-            console.log(service.type);
-            var selector = service.selector == undefined ? false : service.selector;
+            var unitNotProportionWithCount = service.unitNotProportionWithCount == undefined ? false : service.unitNotProportionWithCount;
             ++nodeId;
-            $mainTableBody.append("<tr class='no-print' data-node='"+ nodeId+"' data-pnode='"+parentNodeId+"' data-selector='"+ selector+"'>" +
+            $mainTableBody.append("<tr class='no-print' data-node='"+ nodeId+"' data-pnode='"+parentNodeId+"' data-unit-not-proportion-with-count='"+ unitNotProportionWithCount+"'>" +
                 "<td>" + service.code + "</td>" +
                 "<td class='td-name'>" + service.name + "</td>" +
                 "<td class='count'></td>" +
@@ -177,7 +174,7 @@ function getResult() {
 
             var unit = +($row.find('.unit').text());
 
-            if($row.data('selector')){
+            if($row.data('unitNotProportionWithCount')){
                 count = 1;
             } 
             unitResult.push(unit* count);

@@ -339,7 +339,7 @@ var globalJSON = [
             {
                 "code": "5.7",
                 "name": "Обтурация 1 корневого канала (гуттаперча)",
-                "selector" : true, // selector - разные unit при разных count
+                "unitNotProportionWithCount" : true, // unitNotProportionWithCount - разные unit при разных count
                 "count": "", 
                 "unit": "3.0", //при кол-ве == 1 ует = 3.0
                 "price": "300"
@@ -347,7 +347,7 @@ var globalJSON = [
             {
                 "code": "5.8",
                 "name": "Обтурация 1 корневого канала (эндометазон)",
-                "selector" : true,
+                "unitNotProportionWithCount" : true,
                 "count": "",
                 "unit": "3.0", //при кол-ве == 1 ует = 3.0
                 "price": "180"
