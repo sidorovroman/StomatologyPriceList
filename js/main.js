@@ -20,6 +20,10 @@ $(function () {
 
     // при изменении кол-ва услуг пересчитываем сумму
     $('.table tbody tr').on('change', '.service-count', function (e) {
+        
+        var $tr = $(this).parent().parent();
+
+        updateUnit($tr);
         getResult()
     });
 
@@ -46,6 +50,8 @@ $(function () {
      * */
     $('.table tbody tr:not(.no-service)').click(function () {
 
+        console.log("click");
+        
         $(this).toggleClass('success no-print');
 
         var $countTd = $(this).find(".count");
@@ -55,6 +61,7 @@ $(function () {
         } else {
             $countTd.empty();
         }
+        updateUnit($(this));
         getResult();
     });
     //убираем скроллируемость колва услуг при наведении на input
@@ -71,6 +78,31 @@ $(function () {
 });
 
 
+function updateUnit ($tr) {
+    var selector = $tr.data('selector');
+    console.log("selector:" + selector);
+    if (selector) {
+        var $unitInput = $tr.find(".unit");
+
+        var $countInput = $tr.find(".service-count");
+        
+        if($countInput == undefined){
+            $unitInput.text("3.0")
+        }else{
+            var val = $countInput.val();
+            console.log("count val:" + val);
+            if(val == 1){
+                $unitInput.text("3.0")
+            } else if(val == 2){
+                $unitInput.text("4.0")
+            }else if(val > 2){
+                $unitInput.text("5.0")
+            }else{
+                $unitInput.text("3.0")
+            }
+        }
+    };
+}
 /**
  * метод для заполнения таблицы
  * пока что данные хранятся в переменной
@@ -96,8 +128,9 @@ function fillTable() {
         for (var j = 0; j < type.services.length; j++) {
             var service = type.services[j];
             console.log(service.type);
+            var selector = service.selector == undefined ? false : service.selector;
             ++nodeId;
-            $mainTableBody.append("<tr class='no-print' data-node='"+ nodeId+"' data-pnode='"+parentNodeId+"'>" +
+            $mainTableBody.append("<tr class='no-print' data-node='"+ nodeId+"' data-pnode='"+parentNodeId+"' data-selector='"+ selector+"'>" +
                 "<td>" + service.code + "</td>" +
                 "<td class='td-name'>" + service.name + "</td>" +
                 "<td class='count'></td>" +
@@ -136,14 +169,19 @@ function getResult() {
     var priceResult = [];
     var unitResult = [];
     for (var i = 0; i < selectedRows.length; i++) {
-        var count = $(selectedRows[i]).find(".count").find('input').val();
+        var $row = $(selectedRows[i]);
+        var count = $row.find(".count").find('input').val();
         if (count > 0) {
-            var cost = +($(selectedRows[i]).find('.price').text());
-            var serviceResult = cost * count;
-            priceResult.push(serviceResult);
+            var cost = +($row.find('.price').text());
+            priceResult.push(cost * count);
+
+            var unit = +($row.find('.unit').text());
+
+            if($row.data('selector')){
+                count = 1;
+            } 
+            unitResult.push(unit* count);
         }
-        var unit = +($(selectedRows[i]).find('.unit').text());
-        unitResult.push(unit);
     }
     var totalPrice = 0;
     for (var j = 0; j < priceResult.length; j++) {
