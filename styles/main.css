@@ -42,13 +42,17 @@
     display: none !important;
   }
   .logo-print {
-    -moz-transform: scale(0.75);
-    zoom: 75%;
+    /*-moz-transform: scale(0.75);*/
+    float: right;
+    width: 4cm !important;
+    /*zoom: 75%;*/
     visibility: visible !important;
   }
   .info-print {
-    -moz-transform: scale(0.75);
-    zoom: 75%;
+    /*-moz-transform: scale(0.75);*/
+    float: left;
+    font-size: 8px !important;
+    /* zoom: 75%;*/
     visibility: visible !important;
   }
   #datepicker {
@@ -191,7 +195,6 @@
   outline: none !important;
 }
 .title-company {
-  padding: 1cm 0 0 0;
   text-align: center;
   font-size: 21px;
 }
