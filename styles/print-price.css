@@ -1,11 +1,16 @@
-body {
-  /*zoom:75%;*/
-  margin: 25mm 25mm 25mm 25mm;
+@media print {
+  .nav-tabs {
+    visibility: hidden;
+  }
 }
-#main-table thead {
+body {
+  color: black !important;
+  margin: 1cm auto;
+}
+table thead {
   display: table-header-group;
 }
-#main-table tr {
+table tr {
   display: table-row !important;
 }
 .no-print,
@@ -208,16 +213,16 @@ input[type="number"] {
 tr {
   cursor: pointer;
 }
-#main-table th {
+table th {
   text-align: center;
 }
-#main-table .th-count {
+table .th-count {
   min-width: 70px;
 }
-#main-table .th-price {
+table .th-price {
   min-width: 90px;
 }
-#main-table .tr-result {
+table .tr-result {
   background-color: #fff !important;
   cursor: default;
   border-style: double;
@@ -225,27 +230,27 @@ tr {
   border-right: white;
   border-bottom: white;
 }
-#main-table .tr-result td.title {
+table .tr-result td.title {
   text-align: left;
   font-weight: bold;
 }
-#main-table .tr-result:hover {
+table .tr-result:hover {
   background-color: #fff !important;
 }
-#main-table td {
+table td {
   vertical-align: middle;
   text-align: center;
   padding-top: 3px !important;
   padding-bottom: 3px !important;
 }
-#main-table .td-title-name {
+table .td-title-name {
   text-align: left;
   font-size: 15px;
 }
-#main-table .td-name {
+table .td-name {
   text-align: left;
 }
-#main-table .count {
+table .count {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }

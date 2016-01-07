@@ -1,8 +1,15 @@
-  body{
-    /*zoom:75%;*/
-    margin: 25mm 25mm 25mm 25mm;
+@media print
+{
+  .nav-tabs{
+    visibility: hidden;
   }
-  #main-table{
+}
+
+  body{
+    color: black !important;
+        margin: 1cm auto;
+  }
+  table{
     thead {
       display: table-header-group;
     }
@@ -152,10 +159,6 @@ input[type="number"]{
   box-shadow: none !important;
   outline: none !important;
 }
-//#client_fio,
-//#doctor_fio{
-//  text-transform: capitalize;
-//}
 
 .title-company{
   padding: 1cm 0 0 0;
@@ -217,7 +220,7 @@ tr{
   cursor: pointer;
 }
 
-#main-table{
+table{
   th{
     text-align: center;
   }
