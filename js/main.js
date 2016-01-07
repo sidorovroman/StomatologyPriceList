@@ -174,9 +174,6 @@ function getResult() {
 
             var unit = +($row.find('.unit').text());
 
-            if($row.data('unitNotProportionWithCount')){
-                count = 1;
-            } 
             unitResult.push(unit* count);
         }
     }
