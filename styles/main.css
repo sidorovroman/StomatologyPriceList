@@ -82,9 +82,8 @@
   /*end of hide placeholder*/
   @page {
     size: auto;
-    margin: 0mm;
-    
     /* auto is the initial value */
+    margin: 0mm;
     /* this affects the margin in the printer settings */
   }
   .protocol-title {
@@ -102,6 +101,15 @@
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     height: 20px !important;
+  }
+  .print-group.diagnosis {
+    padding-left: 0 !important;
+  }
+  .print-group.diagnosis .print-title {
+    position: relative !important;
+  }
+  .print-group.diagnosis .form-control {
+    padding: 0 !important;
   }
   .print-title {
     font-size: 75%;
