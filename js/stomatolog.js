@@ -283,6 +283,13 @@ var globalJSON = [
                 "count": "",
                 "unit": "6.0",
                 "price": "1000"
+            },
+            {
+                "code": "4.7",
+                "name": "Стекловолоконная лента Dentapreg",
+                "count": "",
+                "unit": "1.0",
+                "price": "1280"
             }
         ]
     },
