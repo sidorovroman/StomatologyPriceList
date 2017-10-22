@@ -58,6 +58,12 @@
   #datepicker {
     font-weight: bold !important;
   }
+  #datepicker,
+  #contract_number {
+    padding: 0;
+    margin: 0 !important;
+    height: auto;
+  }
   .separator {
     border-bottom: 1px solid #DDD !important;
     width: 100% !important;
@@ -82,8 +88,9 @@
   /*end of hide placeholder*/
   @page {
     size: auto;
-    /* auto is the initial value */
     margin: 0mm;
+    
+    /* auto is the initial value */
     /* this affects the margin in the printer settings */
   }
   .protocol-title {
@@ -257,6 +264,12 @@
 #datepicker {
   width: 100px;
   display: inline-block;
+}
+#contract_number {
+  width: 50px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 3px;
 }
 #main-table tr {
   cursor: pointer;
