@@ -180,9 +180,11 @@
 }
 .form-signature .line {
   width: 3cm;
-  border-bottom: 1px solid;
   margin: 0 5mm;
   display: inline-block;
+}
+.form-signature .line .cassir-sign {
+  width: 2cm;
 }
 .logo-print {
   visibility: hidden;
