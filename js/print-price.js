@@ -26,15 +26,10 @@ function fillTable() {
                                 '<table class="table table-hover table-striped">'+
                                   '  <thead>'+
                                    ' <tr>'+
-                                    '    <th>'+
-                                    '        <strong>Код</strong>'+
-                                     '   </th>'+
-                                      '  <th>'+
-                                       '     <strong>Виды работ</strong>'+
-                                        '</th>'+
-                                        '<th class="th-price">'+
-                                        '    <strong>цены, руб</strong>'+
-                                        '</th>'+
+                                        '<th><strong>Номер</strong></th>'+
+                                        '<th><strong>Код</strong></th>'+
+                                        '<th><strong>Виды работ</strong></th>'+
+                                        '<th class="th-price"><strong>цены, руб</strong></th>'+
                                     '</tr>'+
                                     '</thead>'+
                                     '<tbody>'+
@@ -68,6 +63,7 @@ function fillTabContent (ids,$container) {
         if(ids.indexOf(type.id)!=-1){
             $container.append("<tr class='no-service  tr-title'>" +
                 "<td></td>" +
+                "<td></td>" +
                 "<td class='td-title-name'><strong>" + type.name + "</strong></td>" +
                 "<td></td>" +
                 "</tr>");
@@ -76,6 +72,7 @@ function fillTabContent (ids,$container) {
                 var service = type.services[j];
                 $container.append("<tr>" +
                     "<td>" + service.code + "</td>" +
+                    "<td class='td-classifier-code'>" + service.classifier_code + "</td>" +
                     "<td class='td-name'>" + service.name + "</td>" +
                     "<td class='price'>" + service.price + "</td>" +
                     "</tr>");
