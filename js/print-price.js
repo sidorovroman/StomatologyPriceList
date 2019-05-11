@@ -26,7 +26,7 @@ function fillTable() {
                                 '<table class="table table-hover table-striped">'+
                                   '  <thead>'+
                                    ' <tr>'+
-                                        '<th><strong>Номер</strong></th>'+
+                                        '<th><strong>№</strong></th>'+
                                         '<th><strong>Код</strong></th>'+
                                         '<th><strong>Виды работ</strong></th>'+
                                         '<th class="th-price"><strong>цены, руб</strong></th>'+
