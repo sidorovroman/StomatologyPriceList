@@ -9,7 +9,7 @@ var globalJSON = [
         "name": "Общие виды работ",
         "services": [
             {
-                "classifier_code": "",
+                "classifier_code": "A06.07.010",
                 "code": "1.1",
                 "name": "Радиовизиография челюстно-лицевой области",
                 "price": "250",
@@ -17,7 +17,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A06.07.003",
                 "code": "1.2",
                 "name": "Прицельная внутриротовая контактная рентгенография",
                 "price": "250",
@@ -25,7 +25,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "B01.003.004.002",
                 "code": "1.3",
                 "name": "Проводниковая анестезия",
                 "price": "300",
@@ -33,7 +33,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "B01.003.004.004",
                 "code": "1.4",
                 "name": "Аппликационная анестезия",
                 "price": "100",
@@ -41,7 +41,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "B01.003.004.005",
                 "code": "1.5",
                 "name": "Инфильтрационная анестезия",
                 "price": "300",
