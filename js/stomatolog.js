@@ -461,7 +461,7 @@ var globalJSON = [
         "name": "Парадонтология",
         "services": [
             {
-                "classifier_code": "",
+                "classifier_code": "B01.065.001",
                 "code": "3.1",
                 "name": "Прием (осмотр, консультация) врача-стоматолога-терапевта первичный",
                 "price": "200",
@@ -469,7 +469,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "B01.065.002",
                 "code": "3.2",
                 "name": "Прием (осмотр, консультация) врача-стоматолога-терапевта повторный",
                 "price": "100",
@@ -477,7 +477,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A02.07.003",
                 "code": "3.3",
                 "name": "Исследование зубодесневых карманов с помощью пародонтологического зонда",
                 "price": "80",
@@ -485,7 +485,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A02.07.008",
                 "code": "3.4",
                 "name": "Определение степени патологической подвижности зубов",
                 "price": "50",
@@ -493,7 +493,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A11.07.010",
                 "code": "3.5",
                 "name": "Введение лекарственных препаратов в пародонтальный карман",
                 "price": "120",
@@ -501,7 +501,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A11.07.022",
                 "code": "3.6",
                 "name": "Аппликация лекарственного препарата на слизистую оболочку полости рта",
                 "price": "100",
@@ -509,7 +509,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A11.07.022.1",
                 "code": "3.7",
                 "name": "Лечение заболеваний слизистой оболочки полости рта: 1 сеанс",
                 "price": "300",
@@ -517,7 +517,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A12.07.003",
                 "code": "3.8",
                 "name": "Определение индексов гигиены полости рта",
                 "price": "50",
@@ -525,7 +525,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A12.07.004",
                 "code": "3.9",
                 "name": "Определение пародонтальных индексов",
                 "price": "50",
@@ -533,7 +533,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A13.30.007",
                 "code": "3.10",
                 "name": "Обучение гигиене полости рта",
                 "price": "100",
@@ -541,7 +541,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A14.07.008",
                 "code": "3.11",
                 "name": "Обучение гигиене полости рта и зубов индивидуальное, подбор средств и предметов гигиены полости рта",
                 "price": "200",
@@ -549,7 +549,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A15.07.003",
                 "code": "3.12",
                 "name": "Наложение лечебной повязки при заболеваниях слизистой оболочки полости рта и пародонта в области одной челюсти",
                 "price": "150",
@@ -557,7 +557,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.011.1",
                 "code": "3.13",
                 "name": "Вскрытие подслизистого или поднадкостничного очага воспаления в полости рта. Вскрытие пародонтального абсцесса",
                 "price": "250",
@@ -565,7 +565,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.020.1",
                 "code": "3.14",
                 "name": "Удаление наддесневых и поддесневых зубных отложений ультразвуком 1 челюсть",
                 "price": "800",
@@ -573,7 +573,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.020.001",
                 "code": "3.15",
                 "name": "Удаление наддесневых и поддесневых зубных отложений в области зуба ручным методом",
                 "price": "1000",
@@ -581,7 +581,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.026.1",
                 "code": "3.16",
                 "name": "Гингивэктомия: 1 зуб",
                 "price": "500",
@@ -589,7 +589,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.026.2",
                 "code": "3.17",
                 "name": "Гингивэктомия: 3 зуба",
                 "price": "1100",
@@ -597,7 +597,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.039",
                 "code": "3.18",
                 "name": "Закрытый кюретаж при заболеваниях парадонта: в области двух зубов",
                 "price": "450",
@@ -605,7 +605,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.058",
                 "code": "3.19",
                 "name": "Лечение перикоронита (промывание, рассечение и/или иссечение капюшона)",
                 "price": "300",
@@ -613,7 +613,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A20.07.001",
                 "code": "3.20",
                 "name": "Гидроорошение при заболевании полости рта и зубов. Медобработка",
                 "price": "150",
@@ -621,7 +621,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A22.07.001",
                 "code": "3.21",
                 "name": "Ультразвуковая обработка пародонтального кармана в области зуба",
                 "price": "150",
@@ -629,7 +629,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A22.07.002",
                 "code": "3.22",
                 "name": "Ультразвуковое удаление наддесневых и поддесневых зубных отложений в области зуба",
                 "price": "100",
@@ -637,7 +637,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A22.07.008",
                 "code": "3.23",
                 "name": "Воздействие лазерным низкоинтенсивным излучением на область десен",
                 "price": "50",
@@ -645,7 +645,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A22.07.008.1",
                 "code": "3.24",
                 "name": "Лечение афтозного стоматита лазерным низкоинтенсивным излучением",
                 "price": "150",
@@ -653,7 +653,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A11.07.024.1",
                 "code": "3.25",
                 "name": "Местное применение реминерализующих препаратов в области зуба: Фторлак",
                 "price": "50",
@@ -661,7 +661,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A11.07.024.2",
                 "code": "3.26",
                 "name": "Местное применение реминерализующих препаратов в области зуба: Fluocal",
                 "price": "100",
@@ -669,7 +669,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.051",
                 "code": "3.27",
                 "name": "Профессиональная гигиена полости рта и зубов",
                 "price": "3000",
@@ -677,7 +677,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.051.1",
                 "code": "3.28",
                 "name": "Профессиональная гигиена полости рта и зубов - одна челюсть",
                 "price": "1500",
