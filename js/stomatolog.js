@@ -691,7 +691,7 @@ var globalJSON = [
         "name": "Ортопедическая стоматология",
         "services": [
             {
-                "classifier_code": "",
+                "classifier_code": "B01.066.001",
                 "code": "4.1",
                 "name": "Прием (осмотр, консультация) врача-стоматолога-ортопеда первичный",
                 "price": "300",
@@ -699,7 +699,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "B01.066.002",
                 "code": "4.2",
                 "name": "Прием (осмотр, консультация) врача-стоматолога-ортопеда повторный",
                 "price": "150",
@@ -707,7 +707,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A02.07.010.001.1",
                 "code": "4.3",
                 "name": "Снятие оттиска с одной челюсти из слепочной массы альгинатной",
                 "price": "350",
@@ -715,7 +715,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A02.07.010.001.2",
                 "code": "4.4",
                 "name": "Снятие оттиска с одной челюсти из слепочной массы силиконовой",
                 "price": "900",
@@ -723,7 +723,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.023.1",
                 "code": "4.5",
                 "name": "Протезирование зубов полными съемными пластиночными протезами с использованием зубов \"Эстедент\", зубов производства КНР (изготовление слепков, индивидуальных ложек в стоимость не входит)",
                 "price": "8000",
@@ -731,7 +731,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.023.2",
                 "code": "4.6",
                 "name": "Протезирование зубов полными съемными пластиночными протезами с использованием зубов производства Италии, Германии, Японии (изготовление слепков, индивидуальных ложек в стоимость не входит)",
                 "price": "9000",
@@ -739,7 +739,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.025",
                 "code": "4.7",
                 "name": "Избирательное пришлифовывание твердых тканей зуба (1 зуб)",
                 "price": "100",
@@ -747,7 +747,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.033",
                 "code": "4.8",
                 "name": "Восстановление зуба коронкой с использованием цельнолитой культевой вкладки",
                 "price": "2000",
@@ -755,7 +755,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.035.2",
                 "code": "4.9",
                 "name": "Протезирование частичными съемными пластиночными протезами до 10 зубов (изготовление слепков, кламмеров в стоимость не входит)",
                 "price": "7000",
@@ -763,7 +763,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.035.3",
                 "code": "4.10",
                 "name": "Протезирование частичными съемными пластиночными протезами до 13 зубов (изготовление слепков, кламмеров в стоимость не входит)",
                 "price": "7500",
@@ -771,7 +771,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.049",
                 "code": "4.11",
                 "name": "Повторная фиксация на постоянный цемент несъемных ортопедических конструкций",
                 "price": "200",
@@ -779,7 +779,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.053.1",
                 "code": "4.12",
                 "name": "Снятие искусственной (штампованной и пластмассовой) коронки",
                 "price": "200",
@@ -787,7 +787,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A16.07.053.2",
                 "code": "4.13",
                 "name": "Снятие цельнолитой коронки",
                 "price": "400",
@@ -795,7 +795,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.001",
                 "code": "4.14",
                 "name": "Изготовление зуба литого металлического в несъемной конструкции протеза",
                 "price": "1200",
@@ -803,7 +803,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.002",
                 "code": "4.15",
                 "name": "Изготовление лапки литого зуба",
                 "price": "250",
@@ -811,7 +811,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.003",
                 "code": "4.16",
                 "name": "Изготовление контрольной, огнеупорной модели",
                 "price": "800",
@@ -819,7 +819,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.004",
                 "code": "4.17",
                 "name": "Изготовление зуба пластмассового простого",
                 "price": "1500",
@@ -827,7 +827,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.005",
                 "code": "4.18",
                 "name": "Изготовление спайки",
                 "price": "250",
@@ -835,7 +835,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.006",
                 "code": "4.19",
                 "name": "Изготовление разборной модели",
                 "price": "600",
@@ -843,7 +843,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.007",
                 "code": "4.20",
                 "name": "Изготовление гнутой лапки",
                 "price": "300",
@@ -851,7 +851,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.010",
                 "code": "4.21",
                 "name": "Изготовление кламмера гнутого из стальной проволоки",
                 "price": "250",
@@ -859,7 +859,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.011",
                 "code": "4.22",
                 "name": "Изоляция торуса",
                 "price": "300",
@@ -867,7 +867,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.012",
                 "code": "4.23",
                 "name": "Изготовление армированной дуги литой",
                 "price": "3000",
@@ -875,7 +875,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.013",
                 "code": "4.24",
                 "name": "Изготовление фасетки литой (металлической)",
                 "price": "1700",
@@ -883,7 +883,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.014",
                 "code": "4.25",
                 "name": "Изготовление базиса бюгельного протеза с пластмассовыми зубами",
                 "price": "500",
@@ -891,7 +891,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.015",
                 "code": "4.26",
                 "name": "Изготовление бюгельного каркаса",
                 "price": "6000",
@@ -899,7 +899,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.016",
                 "code": "4.27",
                 "name": "Изготовление огнеупорной модели",
                 "price": "800",
@@ -907,7 +907,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.017",
                 "code": "4.28",
                 "name": "Изготовление литого базиса",
                 "price": "7000",
@@ -915,7 +915,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.019",
                 "code": "4.29",
                 "name": "Изготовление литого опорно-удерживающего кламмера",
                 "price": "350",
@@ -923,7 +923,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.019.1",
                 "code": "4.30",
                 "name": "Изготовление индивидуальной ложки из композитного материала",
                 "price": "1500",
@@ -931,7 +931,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.021",
                 "code": "4.31",
                 "name": "Изготовление ограничителя базиса бюгельного протеза",
                 "price": "300",
@@ -939,7 +939,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.022",
                 "code": "4.32",
                 "name": "Изготовление седла бюгельного протеза",
                 "price": "500",
@@ -947,7 +947,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.023",
                 "code": "4.33",
                 "name": "Изготовление ответвления в бюгеле (компайдер)",
                 "price": "600",
@@ -955,7 +955,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.024",
                 "code": "4.34",
                 "name": "Изготовление фасетки в бюгельном протезе",
                 "price": "2500",
@@ -963,7 +963,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.025",
                 "code": "4.35",
                 "name": "Изготовление зуба литого в бюгельном протезе",
                 "price": "1600",
@@ -971,7 +971,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.027",
                 "code": "4.36",
                 "name": "Изготовление контрольной модели",
                 "price": "200",
@@ -979,7 +979,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.028",
                 "code": "4.37",
                 "name": "Изготовление коронки цельнолитой",
                 "price": "2500",
@@ -987,7 +987,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.029",
                 "code": "4.38",
                 "name": "Изготовление коронки металлоакриловой на цельнолитом каркасе",
                 "price": "3000",
@@ -995,7 +995,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.030",
                 "code": "4.39",
                 "name": "Изготовление коронки пластмассовой",
                 "price": "1800",
@@ -1003,7 +1003,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.030.1",
                 "code": "4.40",
                 "name": "Изготовление коронки пластмассовой временной",
                 "price": "750",
@@ -1011,7 +1011,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.031",
                 "code": "4.41",
                 "name": "Изготовление коронки металлической штампованной",
                 "price": "1500",
@@ -1019,7 +1019,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.032",
                 "code": "4.42",
                 "name": "Изготовление комбинированной коронки",
                 "price": "1800",
@@ -1027,7 +1027,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.034",
                 "code": "4.43",
                 "name": "Перебазировка съемного протеза лабораторным методом",
                 "price": "2000",
@@ -1035,7 +1035,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.035.1",
                 "code": "4.44",
                 "name": "Приварка одного кламмера",
                 "price": "750",
@@ -1043,7 +1043,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.035.2",
                 "code": "4.45",
                 "name": "Приварка двух кламмеров",
                 "price": "1000",
@@ -1051,7 +1051,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.036.1",
                 "code": "4.46",
                 "name": "Приварка одного зуба",
                 "price": "700",
@@ -1059,7 +1059,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.036.2",
                 "code": "4.47",
                 "name": "Приварка двух зубов",
                 "price": "900",
@@ -1067,7 +1067,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.036.3",
                 "code": "4.48",
                 "name": "Приварка трех зубов",
                 "price": "1000",
@@ -1075,7 +1075,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.036.4",
                 "code": "4.49",
                 "name": "Приварка четырех зубов",
                 "price": "1200",
@@ -1083,7 +1083,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.037",
                 "code": "4.50",
                 "name": "Починка одного перелома базиса самотвердеющей пластмассой",
                 "price": "800",
@@ -1091,7 +1091,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.038",
                 "code": "4.51",
                 "name": "Починка двух переломов базиса самотвердеющей пластмассой",
                 "price": "950",
@@ -1099,7 +1099,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.039",
                 "code": "4.52",
                 "name": "Изготовление эластической прокладки (лабораторный метод)",
                 "price": "2000",
@@ -1107,7 +1107,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.049",
                 "code": "4.53",
                 "name": "Изготовление зуба металлокерамического",
                 "price": "4500",
@@ -1115,7 +1115,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.053",
                 "code": "4.54",
                 "name": "Изготовление коронки бюгельной",
                 "price": "1600",
@@ -1123,7 +1123,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.054",
                 "code": "4.55",
                 "name": "Изготовление коронки металлокерамической (фарфоровой)",
                 "price": "4500",
@@ -1131,7 +1131,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.056",
                 "code": "4.56",
                 "name": "Изготовление окклюзионной накладки в мостовидном протезе",
                 "price": "500",
@@ -1139,7 +1139,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.07.002.070",
                 "code": "4.57",
                 "name": "Изготовление коронки пластмассовой с послойной моделировкой",
                 "price": "2200",
@@ -1147,7 +1147,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.30.050",
                 "code": "4.58",
                 "name": "Услуги по обслуживанию ортопедических приспособлений (механическая чистка, полировка)",
                 "price": "500",
@@ -1155,7 +1155,7 @@ var globalJSON = [
                 "count": ""
             },
             {
-                "classifier_code": "",
+                "classifier_code": "A23.30.050.001",
                 "code": "4.59",
                 "name": "Коррекция съемной ортопедической конструкции",
                 "price": "300",
